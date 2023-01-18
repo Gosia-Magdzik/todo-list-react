@@ -2,6 +2,7 @@ import React from 'react';
 import Form from "./form";
 import Tasks from "./Tasks";
 import Buttons from './Buttons';
+import Section from './Section';
 
 const tasks = [
   {id: 1, content: "przejść na reacta", done: false},

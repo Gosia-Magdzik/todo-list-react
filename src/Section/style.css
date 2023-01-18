@@ -1,0 +1,32 @@
+.section {
+    background-color: white;
+    box-shadow: 0 0 2px #aaa;
+    margin-bottom: 10px;   
+};
+
+.section__header {
+    margin: 0px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 3px solid  rgb(241, 241, 241);    
+}
+
+.section__header--grid {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 10px;
+
+    margin: 0px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 3px solid  rgb(241, 241, 241); 
+}
+
+@media (max-width: 767px) {
+
+.section__header--grid {
+    grid-template-columns: none;
+}
+}
