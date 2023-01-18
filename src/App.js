@@ -14,17 +14,16 @@ function App() {
   return (
 <main className="body">
     <h1>Lista Zadań</h1>
-    <section className="section">
-        <h2 className="section__header">Dodaj nowe zadanie</h2>
-        <Form/>
-    </section>
-    
-    <section className="section">
-        <h2 className="section__header--grid">Lista zadań
-        <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks}/>
-        </h2>
-        <Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} /> 
-    </section>
+    <Section  title="Dodaj nowe zadanie"
+              body={<Form/>} 
+    />
+
+    <Section  title="Lista zadań"
+              body={<Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />} 
+              extraHeaderContent={<Buttons tasks={tasks} hideDoneTasks={hideDoneTasks}/>}
+    />
+
+
 </main>
   );
 }
