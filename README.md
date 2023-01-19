@@ -11,7 +11,7 @@ The project was intended to create an input area where You can write things 'to 
 
 *Please notice that interactions do not work in the tasks list yet*
 ## Demo: 
-[Link] (https://gosia-magdzik.github.io/to-do-list/)
+[Link](https://gosia-magdzik.github.io/to-do-list/)
 
 ## Technologies I have used:
 
