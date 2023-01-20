@@ -11,7 +11,6 @@ const Buttons = ({tasks, hideDoneTasks}) => (
             </button>
             <button 
                 className="finishAll"
-                autoFocus
                 disabled={tasks.every(({ done }) => done)}
             >
                 Ukończ wszystkie
