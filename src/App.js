@@ -1,5 +1,5 @@
 import React from 'react';
-import Form from './form';
+import Form from './Form';
 import Tasks from './Tasks';
 import Buttons from './Buttons';
 import Section from './Section';
