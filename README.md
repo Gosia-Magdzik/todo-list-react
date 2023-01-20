@@ -1,6 +1,6 @@
 # <img src="public/mini.png" height="25"/> **Tasks List**
 
-<img src="imagies/to-do-list.gif" height="250"/>
+<img src="images/to-do-list.gif" height="250"/>
 
 ## Description: 
 Dear all,
@@ -15,11 +15,11 @@ The project was intended to create an input area where You can write things 'to 
 
 ## Technologies I have used:
 
-- <img src="imagies/bulb.png" height="25"/> **HTML**
-- <img src="imagies/bulb.png" height="25"/> **CSS**
-- <img src="imagies/bulb.png" height="25"/> **JS ES6+**
-- <img src="imagies/bulb.png" height="25"/> **BEM**
-- <img src="imagies/bulb.png" height="25"/> **React**
+- <img src="images/bulb.png" height="25"/> **HTML**
+- <img src="images/bulb.png" height="25"/> **CSS**
+- <img src="images/bulb.png" height="25"/> **JS ES6+**
+- <img src="images/bulb.png" height="25"/> **BEM**
+- <img src="images/bulb.png" height="25"/> **React**
 
 
 ## Getting Started with Create React App
