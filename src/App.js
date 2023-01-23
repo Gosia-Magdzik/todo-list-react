@@ -6,7 +6,7 @@ import Section from './Section';
 import Header from './Header';
 import Container from './Container';
 
-const hideDone = false;
+
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
@@ -30,7 +30,14 @@ function App() {
       }
         return task;
     }));
-  }
+  };
+
+  const setAllDone = () => {
+    setTasks(tasks => tasks.map(task => ({
+      ...task,
+      done: true,
+    })));
+  };
 
   return (
 <Container>
@@ -47,6 +54,7 @@ function App() {
               extraHeaderContent= {<Buttons tasks={tasks} 
                                             hideDone={hideDone} 
                                             toggleHideDone={toggleHideDone} 
+														  setAllDone={setAllDone}
                                   />}
     />
 </Container>
