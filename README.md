@@ -9,7 +9,6 @@ This is my first project in React technology where I converted my old to-do list
 
 The project was intended to create an input area where You can write things 'to do' and make a list displayed below. On the list You can mark if action is already done or delete it completely from list.
 
-*Please notice that interactions do not work in the tasks list yet*
 ## Demo: 
 [Link](https://gosia-magdzik.github.io/to-do-list/)
 
