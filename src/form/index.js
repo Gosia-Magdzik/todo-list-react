@@ -13,11 +13,13 @@ const onFormSubmit = (event) => {
 
     addNewTask(contentTrim);
     setNewTaskContent("");
+    inputRef.current.focus();
 };
 
     return (
         <form className="form" onSubmit={onFormSubmit}>
             <input 
+                ref={inputRef}
                 value={newTaskContent}
                 className="form__input" 
                 placeholder="Co jest do zrobienia?" 
