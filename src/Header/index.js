@@ -1,7 +1,9 @@
 
 const Header = ({title}) => (
     <Header>
-        {title}
+        <h1>
+            {title}
+        </h1>
     </Header>
 );
 
