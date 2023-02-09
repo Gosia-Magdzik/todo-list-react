@@ -22,7 +22,6 @@ function App() {
             setAllDone,
       } = useTasks();
 
-
       return (
             <Container>
                   <Header title="Lista Zadań" />
