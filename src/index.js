@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { themeProvider } from 'styled-components';
+import { GlobalStyle } from './GlobalStyle';
 import { theme } from './theme';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,6 +12,7 @@ root.render(
   <React.StrictMode>
     <themeProvider theme={theme}>
       <App />
+      <GlobalStyle/>
     </themeProvider>
   </React.StrictMode>
 );
