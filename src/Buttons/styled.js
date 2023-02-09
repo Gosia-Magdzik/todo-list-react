@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ListButtons = styled.div`
     display: flex;
-    flex-wrap: column;
+    flex-wrap: wrap;
 `;
 
 export const Button = styled.button`
