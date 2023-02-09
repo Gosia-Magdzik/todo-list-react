@@ -1,6 +1,8 @@
 
 const Header = ({title}) => (
-    <h1>{title}</h1>
+    <Header>
+        {title}
+    </Header>
 );
 
 export default Header;
