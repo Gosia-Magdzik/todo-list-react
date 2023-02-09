@@ -1,9 +1,9 @@
-import "./style.css";
+import { TaskContainer } from "./styled";
 
 const Container = ({children}) => (
-    <main className="Container">
+    <TaskContainer>
         {children}
-    </main>
+    </TaskContainer>
 );
 
 export default Container;
