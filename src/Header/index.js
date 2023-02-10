@@ -1,10 +1,10 @@
 
 const Header = ({title}) => (
-    <Header>
+    <header>
         <h1>
             {title}
         </h1>
-    </Header>
+    </header>
 );
 
 export default Header;
