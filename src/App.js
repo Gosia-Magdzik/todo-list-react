@@ -10,6 +10,8 @@ function App() {
 
       const {
             tasks,
+            hideDone,
+            toggleHideDone,
             removeTask,
             toggleTaskDone,
             addNewTask,
