@@ -10,7 +10,7 @@ export const Item = styled.li`
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
-    padding: 10ox;
+    padding: 10px;
     align-items: center;
     border-bottom: 1px solid ${({ theme }) => theme.color.alto};
 

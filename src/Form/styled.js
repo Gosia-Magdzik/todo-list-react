@@ -23,10 +23,15 @@ export const Button = styled.button`
     background-color: ${({ theme }) => theme.color.teal};
     color: ${({ theme }) => theme.color.white};
     border: none;
-    transition: 0.5s;
+    transition: 0.3s;
 
     &:hover {
         filter: brightness(110%);
-        transform: scale(1.2);
+        transform: scale(1.1);
+    }
+
+    &:active {
+        filter: brightness(115%);
+        transform: scale(1.15);
     }
 `;

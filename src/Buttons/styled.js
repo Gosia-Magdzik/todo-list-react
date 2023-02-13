@@ -10,9 +10,7 @@ export const Button = styled.button`
     color: ${({theme}) => theme.color.teal};
     transition: filter 0.3s;
     border: none;
-    margin-left: 2px;
-    margin-right: 10px;
-    padding: 15px;
+    margin: 0 0 0 20px;
 
     @media (max-width: ${({theme}) => theme.breakpoint.phone}px){
         flex-basis: 100%;
