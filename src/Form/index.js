@@ -20,7 +20,6 @@ const onFormSubmit = (event) => {
         inputRef.current.focus();    
     }
 
-
     return (
         <StyledForm onSubmit={onFormSubmit}>
             <Input 
