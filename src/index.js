@@ -5,16 +5,18 @@ import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from './GlobalStyle';
 import { theme } from './theme';
-import { configureStore } from '@reduxjs/toolkit';
-import { addTask } from "./features/tasks/tasksSlice";
+import store  from "./store";
+import { Provider } from "react-redux";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <App />
-      <GlobalStyle/>
-    </ThemeProvider>
+    <Provider store={store}>
+        <ThemeProvider theme={theme}>
+          <App />
+          <GlobalStyle/>
+        </ThemeProvider>
+    </Provider>
   </React.StrictMode>
 );
 
