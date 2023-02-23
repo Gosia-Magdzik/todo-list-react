@@ -21,10 +21,9 @@ const TasksList = () => {
             >
                 {task.done ? "✔" : ""}
             </ToggleDoneButton>
-                <Content done=
-                          {task.done}>
-                          {task.id} - {task.content}
-                </Content>
+                <Content done={task.done}>
+                          {task.content}
+                </Content>removeTask
             <RemovedButton
                 remove
                 onClick= {() => dispatch(removeTask(task.id))}
