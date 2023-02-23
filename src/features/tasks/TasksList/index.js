@@ -17,6 +17,7 @@ const TasksList = () => {
             >
             <ToggleDoneButton
                onClick = {() => dispatch(toggleTaskDone(task.id))}
+               done
             >
                 {task.done ? "✔" : ""}
             </ToggleDoneButton>
@@ -25,9 +26,10 @@ const TasksList = () => {
                           {task.id} - {task.content}
                 </Content>
             <RemovedButton
-                onClick= {() => removeTask(task.id)}
+                remove
+                onClick= {() => dispatch(removeTask(task.id))}
             >
-            🗑
+                🗑
             </RemovedButton>
             </Item>
                 ))}
