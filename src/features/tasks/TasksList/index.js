@@ -9,30 +9,30 @@ const TasksList = () => {
 
   const dispatch = useDispatch();
   
-  return (
-      <List>
-        {tasks.map(task => (
-            <Item 
-              key={task.id}
-              hidden={task.done && hideDone}
-            >
-            <ToggleDoneButton
-               onClick = {() => dispatch(toggleTaskDone(task.id))}
-               done
-            >
-                {task.done ? "✔" : ""}
-            </ToggleDoneButton>
-                <Content done={task.done}>
-                          {task.content}
-                </Content>removeTask
-            <RemovedButton
-                remove
-                onClick= {() => dispatch(removeTask(task.id))}
-            >
-                🗑
-            </RemovedButton>
-            </Item>
-                ))}
+    return (
+        <List>
+            {tasks.map(task => (
+                  <Item 
+                    key={task.id}
+                    hidden={task.done && hideDone}
+                  >
+                  <ToggleDoneButton
+                     onClick = {() => dispatch(toggleTaskDone(task.id))}
+                     done
+                  >
+                    {task.done ? "✔" : ""}
+                  </ToggleDoneButton>
+                     <Content done={task.done}>
+                            {task.content}
+                     </Content>
+                  <RemovedButton
+                     remove
+                     onClick= {() => dispatch(removeTask(task.id))}
+                  >
+                     🗑
+                  </RemovedButton>
+                  </Item>
+            ))}
         </List> 
     );
 };
