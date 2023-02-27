@@ -1,24 +1,23 @@
 # <img src="public/mini.png" height="25"/> **Tasks List**
 
+<p align="center">
 <img src="images/to-do-list.gif" height="250"/>
+</p>
+
 
 ## Description: 
 Dear all,
 
-This is my first project in React technology where I converted my old to-do list, written in JS.
+It was my first project in React technology where I converted my old to-do list, written in vanilla JS. 
+Now I implemented Redux technology.
 
-The project was intended to create an input area where You can write things 'to do' and make a list displayed below. On the list You can mark if action is already done or delete it completely from list.
+Project was intended to create an input area where You can write things 'to do' and make a list displayed below. On the list You can mark if action is already done or delete it completely from list. Enjoy
 
-## Demo: 
-[Link](https://gosia-magdzik.github.io/todo-list-react/)
+## Demo:  [Link](https://gosia-magdzik.github.io/todo-list-react/)
 
 ## Technologies I have used:
 
-- <img src="images/bulb.png" height="25"/> **HTML**
-- <img src="images/bulb.png" height="25"/> **CSS**
-- <img src="images/bulb.png" height="25"/> **JS ES6+**
-- <img src="images/bulb.png" height="25"/> **BEM**
-- <img src="images/bulb.png" height="25"/> **React**
+<img src="images/css.png" height="1em" width="1em"/> <img src="images/html-1.png" height="1em" width="1em"/> <img src="images/javascript-1.png" height="1em" width="1em"/> <img src="images/react.png" height="1em" width="1em"/> <img src="images/redux.png" height="1em" width="1em"/> <img src="images/styledComponents.png" height="1em" width="1em"/> 
 
 
 ## Getting Started with Create React App
