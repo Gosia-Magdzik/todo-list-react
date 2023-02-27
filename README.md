@@ -13,11 +13,11 @@ Now I implemented Redux technology.
 
 Project was intended to create an input area where You can write things 'to do' and make a list displayed below. On the list You can mark if action is already done or delete it completely from list. Enjoy
 
-## Demo: *clik on =>* [Link](https://gosia-magdzik.github.io/todo-list-react/)
+## Demo: *clik on <img src="images/arrow.png" height="20px" width="20px"/>* [Link](https://gosia-magdzik.github.io/todo-list-react/)
 
 ## Technologies I have used:
 
-<img src="images/css.png" height="60px" width="60px"/> <img src="images/html-1.png" height="50px" width="50px"/> <img src="images/javascript-1.png" height="50px" width="50px"/> <img src="images/react.png" height="50px" width="50px"/> <img src="images/redux.png" height="50px" width="50px"/> <img src="images/styledComponents.png" height="50px" width="50px"/> 
+<img src="images/css.png" height="60px" width="60px"/>&nbsp; <img src="images/html-1.png" height="50px" width="50px"/> &nbsp;<img src="images/javascript-1.png" height="50px" width="50px"/> &nbsp;<img src="images/react.png" height="50px" width="50px"/>&nbsp; <img src="images/redux.png" height="50px" width="50px"/>&nbsp; <img src="images/styledComponents.png" height="50px" width="50px"/> 
 
 
 ## Getting Started with Create React App
