@@ -6,6 +6,7 @@ const tasksSlice = createSlice({
         tasks: [],
         hideDone: false,
     },
+    
     reducers: {
         addTask: ({ tasks }, { payload: task }) => {
             tasks.push(task);
