@@ -4,43 +4,42 @@ import { useDispatch } from "react-redux";
 import { addTask } from "../tasksSlice";
 import { nanoid } from "@reduxjs/toolkit";
 
+const [newTaskContent, setNewTaskContent] = useState("");
+const dispatch = useDispatch();
+const inputRef = useRef(null);
+
 const Form = () => {
-    const [newTaskContent, setNewTaskContent] = useState("");
+    const onFormSubmit = (event) => {
+        event.preventDefault();
 
-    const dispatch = useDispatch();
+        const trimmedContent = newTaskContent.trim();
 
-const onFormSubmit = (event) => {
-    event.preventDefault();
-    
-    const contentTrim = newTaskContent.trim();
-    
-    if(!contentTrim) {return;}
+        if (!trimmedContent) {
+            return;
+        }
 
-    setNewTaskContent("");
+        setNewTaskContent("");
 
-    dispatch(addTask({
-        content: contentTrim,
-        done: false,
-        id: nanoid(),
-    }));
+        dispatch(addTask({
+            content: trimmedContent,
+            done: false,
+            id: nanoid(),
+        }));
+    };
 
-
-};
-
-    const inputRef = useRef(null);
     const focusInput = () => {
-        inputRef.current.focus();    
+        inputRef.current.focus();
     }
 
     return (
-        <StyledForm onSubmit={onFormSubmit}>
-            <Input 
-                ref={inputRef}
-                value={newTaskContent}
-                placeholder="Co jest do zrobienia?" 
-                onChange={({target}) => setNewTaskContent(target.value)}
+        <StyledForm onSubmit={ onFormSubmit }>
+            <Input
+                ref={ inputRef }
+                value={ newTaskContent }
+                placeholder="Co jest do zrobienia?"
+                onChange= {({ target }) => setNewTaskContent(target.value)}
             />
-            <Button onClick={focusInput}>
+            <Button onClick={ focusInput }>
                 Dodaj zadanie
             </Button>
         </StyledForm>
