@@ -4,11 +4,12 @@ import { useDispatch } from "react-redux";
 import { addTask } from "../tasksSlice";
 import { nanoid } from "@reduxjs/toolkit";
 
-const [newTaskContent, setNewTaskContent] = useState("");
-const dispatch = useDispatch();
-const inputRef = useRef(null);
-
 const Form = () => {
+    const [newTaskContent, setNewTaskContent] = useState("");
+    const inputRef = useRef(null);
+
+    const dispatch = useDispatch();
+
     const onFormSubmit = (event) => {
         event.preventDefault();
 
