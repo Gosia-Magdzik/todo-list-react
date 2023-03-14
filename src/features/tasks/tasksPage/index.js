@@ -1,9 +1,9 @@
-import Form from './Form';
-import TasksList from './TasksList';
-import Buttons from './Buttons';
-import Section from '../../common/Section';
-import Header from '../../common/Header';
-import Container from '../../common/Container';
+import Form from "../tasksPage/Form";
+import TasksList from '../tasksPage/TasksList';
+import Buttons from '../tasksPage/Buttons';
+import Section from '../../../common/Section';
+import Header from '../../../common/Header';
+import Container from '../../../common/Container';
 
 
 function TasksPage() {   
