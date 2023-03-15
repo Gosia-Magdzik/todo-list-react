@@ -1,14 +1,16 @@
 import Section from '../../../common/Section';
 import Header from '../../../common/Header';
 import Container from '../../../common/Container';
+import { useParams } from 'react-router-dom';
 
+function TaskPage() {  
+        const { id } = useParams();
 
-function TaskPage() {   
-      return (
+        return (
             <Container>
                   <Header title="Szczegóły zadania" />
                   <Section 
-                        title={""}
+                        title={ id }
                         body={<>blabalbal</>}
                   />
             </Container>
