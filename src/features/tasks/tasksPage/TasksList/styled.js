@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { Link } from "react-router-dom";
 
 export const List = styled.ul`
     padding: 0;
@@ -55,3 +56,11 @@ export const RemovedButton = styled(Button)`
     }
 `;
 
+export const StyledLink = styled(Link)`
+    color: ${({ theme }) => theme.color.teal};
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+`
