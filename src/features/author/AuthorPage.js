@@ -3,7 +3,7 @@ import Header from '../../common/Header';
 import Container from '../../common/Container';
 import { Wrapper } from './styled';
 
-function Author () {
+function AuthorPage () {
     return (
     <Container>
         <Header 
@@ -28,4 +28,4 @@ function Author () {
     );
 }
 
-export default Author;
+export default AuthorPage;
