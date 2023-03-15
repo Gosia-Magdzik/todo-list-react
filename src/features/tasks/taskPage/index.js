@@ -14,8 +14,13 @@ function TaskPage() {
             <Container>
                   <Header title="Szczegóły zadania" />
                     <Section 
-                            title={ id }
-                            body={<TaskContent>blabalbal</TaskContent>}
+                            title= { task ? task.content : "nie znaleziono zadania 😢" }
+                            body= { <TaskContent>
+                                        {!!task && (
+                                            <><strong>Completed:</strong> { task.done ? "Yes" : "No" } </>
+                                        )}
+                                    </TaskContent> 
+                            }
                     />
             </Container>
       );
