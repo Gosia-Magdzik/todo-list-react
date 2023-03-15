@@ -4,6 +4,7 @@ import Container from '../../../common/Container';
 import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { getTaskById } from '../tasksSlice';
+import { TaskContent } from './styled';
 
 function TaskPage() {  
         const { id } = useParams();
@@ -12,10 +13,10 @@ function TaskPage() {
         return (
             <Container>
                   <Header title="Szczegóły zadania" />
-                  <Section 
-                        title={ id }
-                        body={<>blabalbal</>}
-                  />
+                    <Section 
+                            title={ id }
+                            body={<TaskContent>blabalbal</TaskContent>}
+                    />
             </Container>
       );
 }
