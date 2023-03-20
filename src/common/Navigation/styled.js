@@ -17,9 +17,7 @@ export const Li = styled.li`
     padding: 20px;
 `;
 
-export const StyledNavLink = styled(NavLink).attrs(() => ({
-    activeClassName: "active",
-  }))`
+export const StyledNavLink = styled(NavLink)`
     color: ${({ theme }) => theme.color.white}; 
     text-decoration: none;
 
