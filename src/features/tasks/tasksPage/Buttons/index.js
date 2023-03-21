@@ -5,7 +5,7 @@ import { toggleHideDone,
          selectHideDone, 
          selectAreTaskEmpty, 
          selectIsEveryTaskDone,
-         fetchExampleTasks } from "../../tasksSlice";
+         } from "../../tasksSlice";
 
 const Buttons = () => {
     const hideDone  = useSelector(selectHideDone);
@@ -16,9 +16,6 @@ const Buttons = () => {
 
     return (
         <ListButtons>
-                <Button onClick={() => dispatch(fetchExampleTasks())}>
-                    Dodaj przykładowe zadania
-                </Button>
             {!areTaskEmpty && (
                 <>
                     <Button 
