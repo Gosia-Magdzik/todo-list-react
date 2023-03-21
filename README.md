@@ -1,7 +1,7 @@
 # <img src="public/mini.png" height="25"/> **Tasks List**
 
 <p align="center">
-<img src="images/to-do-list.gif" height="250"/>
+<img src="images/taskList.gif" height="250"/>
 </p>
 
 
@@ -11,13 +11,19 @@ Dear all,
 It was my first project in React technology where I converted my old to-do list, written in vanilla JS. 
 Now I implemented Redux technology.
 
-Project was intended to create an input area where You can write things 'to do' and make a list displayed below. On the list You can mark if action is already done or delete it completely from list. Enjoy
+Project was intended to create an input area where You can write things 'to do' and make a list displayed below. On the list You can mark if action is already done or delete it completely from list.
+
+In this new improved version by using technologies like Redux Saga <img src="images/Redux-Saga-Logo.png" height="25"/>
+ and <img src="images/Router.png" height="30"/> I added new tools like downloading example tasks, tasks filtration function🔎. You can also find some information about me in 'o autorce' page
+Enjoy!
+
 
 ## Demo: *clik on <img src="images/arrow.png" height="20px" width="20px"/>* [Link](https://gosia-magdzik.github.io/todo-list-react/)
 
 ## Technologies I have used:
 
-&nbsp; <img src="images/html-1.png" height="50px" width="50px"/> &nbsp;<img src="images/javascript-1.png" height="50px" width="50px"/> &nbsp;<img src="images/css.png" height="50px" width="50px"/> &nbsp; <img src="images/react.png" height="50px" width="50px"/>&nbsp; <img src="images/redux.png" height="50px" width="50px"/>&nbsp; <img src="images/styledComponents.png" height="50px" width="50px"/> 
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,react,redux,styledcomponents,git,)](https://skillicons.dev)
+
 
 
 ## Getting Started with Create React App
