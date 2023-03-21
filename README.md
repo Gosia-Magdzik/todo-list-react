@@ -1,4 +1,4 @@
-# <img src="public/mini.png" height="25"/> **Tasks List**
+# <p align="center"><img src="public/mini.png" height="25"/> **Tasks List**</p>
 
 <p align="center">
 <img src="images/taskList.gif" height="250"/>
