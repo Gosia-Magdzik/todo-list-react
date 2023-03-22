@@ -69,7 +69,7 @@ export const selectTasksByQuery = (state, query) => {
     }
 
     return tasks.filter(({ content }) => 
-        content.tuUpperCase().includes(query.trim().tuUpperCase()));
+        content.toUpperCase().includes(query.trim().toUpperCase()));
 }
 
 export const selectIsLoading = (state) => selectTasksState(state).loading === true;
