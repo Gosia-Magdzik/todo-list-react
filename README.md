@@ -9,12 +9,13 @@
 Dear all,
 
 It was my first project in React technology where I converted my old to-do list, written in vanilla JS. 
-Now I implemented Redux technology.
 
-Project was intended to create an input area where You can write things 'to do' and make a list displayed below. On the list You can mark if action is already done or delete it completely from list.
+Project was intended to create an input area where you can write tasks 'to do' and create a list displayed below. On the list you can mark if action is already done or delete it completely.
 
-In this new improved version by using technologies like Redux Saga <img src="images/Redux-Saga-Logo.png" height="25"/>
- and <img src="images/Router.png" height="30"/> I added new tools like downloading example tasks, tasks filtration function🔎. You can also find some information about me in 'o autorce' page
+*february 2023:*  I implemented Redux technology.
+
+*march 2023:*     In this new improved version by using technologies like Redux Saga <img src="images/Redux-Saga-Logo.png" height="25"/>
+ and <img src="images/Router.png" height="30"/> <br> I added new tools like downloading example tasks, filtration function🔎. You can also find some information about me in 'o autorce' page
 Enjoy!
 
 
